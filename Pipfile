@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# No additional dependencies needed for sqlite3 as it's part of Python's standard library
+
+[dev-packages]
+# Development dependencies
+pytest = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.8"
